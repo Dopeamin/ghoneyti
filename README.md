@@ -1,6 +1,6 @@
 # GHONEYTI
 
-Foobar is a crossplatform applications for tunisian artists to stream their songs.
+Ghoneyti is a crossplatform applications for tunisian artists to stream their songs.
 
 ## Languages
 
