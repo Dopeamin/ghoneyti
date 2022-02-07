@@ -1,5 +1,21 @@
 .header {
-  .toolbar-background {
-    background-color: var(--ion-color-secondary) !important;
+  --box-shadow : 0px transparent;
+  *{
+    box-shadow: none ;
+    --box-shadow : none;
   }
+  ion-toolbar{
+    padding:10px;
+    --box-shadow: none;
+  }
+  .toolbar-background {
+    --background-color: var(--ion-color-secondary) !important;
+  }
+  .bottom{
+    border-radius: 0px 0px 30px 30px ;
+    
+  }
+}
+.header::after{
+  display: none;
 }

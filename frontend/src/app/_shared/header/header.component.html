@@ -1,8 +1,20 @@
-<ion-header >
+<ion-header class="header">
   <ion-toolbar color="primary" type="md">
-    <ion-button slot="secondary">
-      <ion-icon slot="icon-only" name="menu-outline"></ion-icon>
+    <ion-button slot="start">
+      <ion-icon slot="icon-only" name="apps-outline"></ion-icon>
     </ion-button>
-    <ion-title>{{ title }}</ion-title>
+    <ion-button slot="end">
+      <ion-icon slot="icon-only" name="notifications-outline" class="avatar"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+  <ion-toolbar color="primary" type="sm" class="bottom">
+    <ion-chip>
+      <ion-avatar>
+        <img
+          src="https://gravatar.com/avatar/dba6bae8c566f9d4041fb9cd9ada7741?d=identicon&f=y"
+        />
+      </ion-avatar>
+      <ion-label color="light">John Doe</ion-label>
+    </ion-chip>
   </ion-toolbar>
 </ion-header>
